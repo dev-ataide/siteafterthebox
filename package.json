@@ -1,7 +1,7 @@
 {
   "name": "afterthebox",
   "version": "0.1.0",
-  "homepage": "https://afterthebox.github.io/SiteAfterTheBox",
+  "homepage": "https://dev-ataide.github.io/siteafterthebox",
   "private": true,
   "dependencies": {
     "animate.css": "^4.1.1",
