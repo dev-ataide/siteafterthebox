@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Geral */
+.animated-text {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: ease-in 8s;
+  }
+  
+  /* Animações da Hero */
+
+.animated-hero {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(-200px);
+    transition: opacity 1s ease, transform 1s ease-out;
+  }
+  
+  .animated-hero.visible {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+    transition: all 2s;
+  }
+  
+
+  
+  /* Animações da Section 2 */
+  
+  .animated-section2 {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(200px);
+    transition: opacity 1s ease, transform 1s ease-out;
+  }
+  
+  .animated-section2.visible {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+    transition: all 2s;
+  }
+   /* Animações da Section 3 */
+  
+   .animated-section3 {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateX(-200px);
+    transition: opacity 1s ease, transform 1s ease-out;
+  }
+  
+  .animated-section3.visible {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+    transition: all 2s;
+  }
+
+
+
+
+  /* Animação Beneficios */
+
+  .animated-section {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateY(100px);
+    transition: opacity 2s ease, transform 1s ease-out;
+  }
+  
+  .animated-section.visible {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+    transition: all 2s;
+  }
