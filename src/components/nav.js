@@ -5,8 +5,8 @@ import '../App.css'
 
 const Nav = () => {
   let Links = [
-    {name: 'Home', links: '/'},
-    {name: 'Portfólio', links: '/portfolio'},
+    {name: 'Home', links: '/siteafterthebox'},
+    {name: 'Portfólio', links: '/siteafterthebox/portfolio'},
     // {name: 'Solution', links: '/'},
   ]
 
