@@ -5,8 +5,8 @@ import '../App.css'
 
 const Nav = () => {
   let Links = [
-    {name: 'Home', links: '/siteafterthebox'},
-    {name: 'Portfólio', links: '/siteafterthebox/portfolio'},
+    {name: 'Home', links: '/'},
+    {name: 'Portfólio', links: '/portfolio'},
     // {name: 'Solution', links: '/'},
   ]
 
@@ -35,6 +35,9 @@ const Nav = () => {
  <a className='  bg-transparent text-gray-200 hover:text-white font-mono lg:text-gray-300  lg:hover:text-white ' href={links.links}> {links.name}</a>              </li>
             ))
           }
+          <button className=' bg-orangeATB p-3 rounded-3xl text-gray-200 hover:text-white font-mono lg:text-gray-300  lg:hover:text-white ' >
+            <a className='font-mono' href='https://wa.me/5581986559883' target="_blank" rel="noreferrer" >Entre em contato</a>
+          </button>
         </ul>
       </div>
     </div>

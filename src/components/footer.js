@@ -26,7 +26,7 @@ export const Footer = () => {
                                 <a href='/about' className="text-gray-500 cursor-pointer hover:text-white">Nossa historia</a>
                             </li>
                             <li className="mt-3">
-                                <a className="text-gray-500 cursor-pointer hover:text-white">Trabalhe conosco!</a>
+                                <a className="text-gray-500 cursor-pointer hover:text-white" >Trabalhe conosco!</a>
                             </li>
                           
                         </nav>
@@ -35,13 +35,17 @@ export const Footer = () => {
                         <h2 className="mb-3 text-sm font-medium tracking-widest text-white uppercase title-font">Suporte</h2>
                         <nav className="mb-10 list-none">
                             <li className="mt-3">
-                                <a className="text-gray-500 cursor-pointer hover:text-white">Contate o suporte através do :</a>
+                                <a href='https://wa.me/5581986559883' target="_blank" rel="noreferrer" className="text-gray-500 cursor-pointer hover:text-white ">Contate o suporte através do :</a>
                                 <li className="mt-3 hover:text-white cursor-pointer">
-                                <ion-icon name="logo-whatsapp"></ion-icon>
+                                    <a href='https://wa.me/5581986559883' target="_blank" rel="noreferrer" >
+                                        <ion-icon name="logo-whatsapp"></ion-icon>
+                                    </a>
                                 </li>
                                 <li className="mt-3 hover:text-white cursor-pointer">
-                                <ion-icon name="logo-Instagram"></ion-icon>
-                            </li>
+                                    <a href='https://www.instagram.com/agenciaafterthebox/' target="_blank" rel="noreferrer" >
+                                        <ion-icon name="logo-Instagram"></ion-icon>
+                                    </a>
+                                </li>
                             </li>
                           
                         </nav>
@@ -68,13 +72,17 @@ export const Footer = () => {
                                 <a className="text-gray-500 cursor-pointer hover:text-white ">Envie uma mensagem para o whatsapp: Clique no Icone!</a>
                             </li>
                             <li className="mt-3 hover:text-white cursor-pointer">
+                            <a href='https://wa.me/5581986559883' target="_blank" rel="noreferrer" >
                                 <ion-icon name="logo-whatsapp"></ion-icon>
+                                </a>
                             </li>
                             <li className="mt-3">
                                 <a className="text-gray-500 cursor-pointer hover:text-white ">Ou Acesse o nosso Instagram!</a>
                             </li>
                             <li className="mt-3 hover:text-white cursor-pointer">
+                            <a href='https://www.instagram.com/agenciaafterthebox/' target="_blank" rel="noreferrer" >
                                 <ion-icon name="logo-Instagram"></ion-icon>
+                                </a>
                             </li>
                         </nav>
                     </div>
@@ -88,11 +96,11 @@ export const Footer = () => {
     <div className='bg-white h-02 mb-8 w-full '></div>
 
         <div className="mb-3 gap-5  flex justify-center ">
-        <a href="#!" className=" text-neutral-800 dark:text-neutral-200  hover:text-orangeATB">
+        <a href='https://wa.me/5581986559883' target="_blank" rel="noreferrer" className=" text-neutral-800 dark:text-neutral-200  hover:text-orangeATB">
             <ion-icon name="logo-whatsapp"></ion-icon>
         </a>
         
-        <a href="#!" className=" text-neutral-800 dark:text-neutral-200  hover:text-orangeATB">
+        <a href='https://www.instagram.com/agenciaafterthebox/' target="_blank" rel="noreferrer" className=" text-neutral-800 dark:text-neutral-200  hover:text-orangeATB">
         <ion-icon name="logo-instagram"></ion-icon>
         </a>
         

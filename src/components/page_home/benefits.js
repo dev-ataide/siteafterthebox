@@ -66,8 +66,8 @@ export const Benefits = () => {
                     <div className="inline-block text-orangeATB text-5xl">
                         <ion-icon name="phone-portrait-outline"></ion-icon>
                     </div>
-                    <h3 className="text-lg leading-normal mb-2 font-semibold  text-white">Design Responsivo</h3>
-                    <p className="text-gray-200">Priorizamos a usabilidade e legibilidade, aumentando o engajamento do usuário. Seja em smartphones, tablets ou desktops, .</p>
+                    <h3 className="text-lg leading-normal mb-2 font-semibold  text-white">Design Responsivo e Intuitivo</h3>
+                    <p className="text-gray-200">Priorizamos a usabilidade e legibilidade, aumentando a interação e o engajamento do usuário.</p>
                 </div>
             </div>
             <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 " data-wow-duration="1s" data-wow-delay=".1s" >
@@ -83,7 +83,7 @@ export const Benefits = () => {
                     <div className="inline-block text-orangeATB text-5xl">
                         <ion-icon name="people-outline"></ion-icon>                    </div>
                     <h3 className="text-lg leading-normal mb-2 font-semibold  text-white">Suporte a qualquer hora</h3>
-                    <p className="text-gray-200">Suporte dedicado para garantir que suas dúvidas e necessidades sejam resolvidas.</p>
+                    <p className="text-gray-200">Suporte dedicado para garantir que suas dúvidas e necessidades sejam resolvidas o mais rápido.</p>
                 </div>
             </div>
            </div>

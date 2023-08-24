@@ -39,7 +39,7 @@ export const Team = () => {
                 </div>
                 <div className="text-center">
                     <p className="text-xl text-white font-bold mb-2">Clara Bezerra</p>
-                    <p className="text-base text-gray-400 font-normal"> Marketing </p>
+                    <p className="text-base text-gray-400 font-normal"> Fotógrafa </p>
                 </div>
             </div>
             <div className="w-full bg-bgpurpleATB rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center">

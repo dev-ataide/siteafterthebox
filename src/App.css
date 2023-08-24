@@ -145,6 +145,7 @@
 .white__gradient {
   background: rgb(255, 255, 255);
   filter: blur(700px);
+  -moz-filter: blur(700px);
 }
 
 

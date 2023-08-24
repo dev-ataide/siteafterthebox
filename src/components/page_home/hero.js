@@ -30,7 +30,7 @@ const Hero = () => {
     A Próxima
     </h1>
       <h1 className="z-10 font-semibold tracking-wide xs:text-center ss:text-left dark:text-white">
-         Geração De: <br/> <span className='z-10 my-5'>
+         Geração de: <br/> <span className='z-10 my-5'>
                 <Typewriter
                   words={['WebSites', 'Sistemas de Gestão', 'Sistemas de Agendamento', 'Identidades Visuais', 'Marcas', 'Empresas']}
                   loop={10}

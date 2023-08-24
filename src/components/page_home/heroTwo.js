@@ -24,18 +24,18 @@ export const HeroTwo = () => {
 
   return (
     <div className="container flex flex-col p-10 py-0 mx-auto space-y-6 md:h-[32rem] md:py-16 md:flex-row-reverse md:items-center md:justify-around sm:flex-row justify-center align-middle z-[1] ">
-        <div className= {`animated-section2 text-4xl lg:text-6xl z-10 text-whites ${isVisible ? 'visible' : 'inVisible'}`}>
-          <h1 className="init-hidden ss:text-left xs:text-center font-semibold  tracking-wide text-gray-800 dark:text-white">
-            Expanda seu alcance
+        <div className= {`animated-section2 text-3xl lg:text-6xl z-10 text-whites ${isVisible ? 'visible' : 'inVisible'}`}>
+          <h1 className="init-hidden ss:text-left xs:text-center font-semibold  tracking-wide text-white">
+            Expanda sua visibilidade
           </h1>
-              <h1 className=" ss:text-left xs:text-center font-semibold  tracking-wide dark:text-white text-gradient">
+              <h1 className=" ss:text-left xs:text-center font-semibold  tracking-wide text-white text-gradient">
                 Online
               </h1>
-              <h1 className=" ss:text-left xs:text-center font-semibold tracking-wide dark:text-white ">
+              <h1 className=" ss:text-left xs:text-center font-semibold tracking-wide text-white ">
                 e alcance 
               </h1>
-              <h1 className=" ss:text-left xs:text-center font-semibold tracking-wide dark:text-white text-gradient ">
-                novas Oportunidades
+              <h1 className=" ss:text-left xs:text-center font-semibold tracking-wide text-white text-gradient ">
+                novas oportunidades
               </h1>
             <h1  className={`${styles.paragraph} pt-10`} >
             Aproveite as oportunidades do mundo digital para expandir seu alcance <br/>

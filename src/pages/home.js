@@ -46,6 +46,7 @@ export const Home = () => {
             <Midsection />
         </div>
                 
+      
 
         <div className={`${styles.flexStart} top-0 my-24` } >
             <div className={`${styles.boxWidth}`}>

@@ -1,7 +1,7 @@
 import PortfolioAFTB from '../components/page_portfolio/portfolioIDV';
 import styles from '../constants/styles'
 import Nav from '../components/nav';
-import { LightsPortfolio } from '../constants/lightPortfolio';
+// import { LightsPortfolio } from '../constants/lightPortfolio';
 import { Footer } from '../components/footer';
 
 export default function Portfolio() {
@@ -19,11 +19,7 @@ export default function Portfolio() {
             <Footer />
         </div>
 
-                 
-       <div>
-        <LightsPortfolio/>
-       </div>
-                
+     
 
    </div>
  );
