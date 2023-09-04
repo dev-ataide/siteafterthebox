@@ -15,7 +15,7 @@
 .animated-hero {
     opacity: 0;
     filter: blur(2px);
-    transform: translateX(-200px);
+    transform: translateX(-300px);
     transition: opacity 1s ease, transform 1s ease-out;
   }
   
@@ -33,7 +33,7 @@
   .animated-section2 {
     opacity: 0;
     filter: blur(2px);
-    transform: translateX(200px);
+    transform: translateX(300px);
     transition: opacity 1s ease, transform 1s ease-out;
   }
   
@@ -48,7 +48,7 @@
    .animated-section3 {
     opacity: 0;
     filter: blur(2px);
-    transform: translateX(-200px);
+    transform: translateX(-300px);
     transition: opacity 1s ease, transform 1s ease-out;
   }
   

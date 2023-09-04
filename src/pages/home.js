@@ -8,7 +8,7 @@ import { Footer } from '../components/footer'
 import styles from '../constants/styles'
 import { HeroThree } from '../components/page_home/herothree'
 import { Testimony } from '../components/testimony'
-import { Lights } from '../constants/light'
+// import { Lights } from '../constants/light'
 import { Benefits } from '../components/page_home/benefits'
 // import { AppAgendamento } from '../components/page_home/outraideiapfuturo'
 
@@ -18,7 +18,7 @@ export const Home = () => {
         <div className="">
             <Nav />
         </div>
-        <div className={`${styles.flexStart} mt-56 z-[10]` } >
+        <div className={`${styles.flexStart} mt-36 z-[10]` } >
             <div className={`${styles.boxWidth}`}>
             <Hero />
             </div>
@@ -65,9 +65,7 @@ export const Home = () => {
             <Footer />
         </div>
                 
-       <div>
-        <Lights/>
-       </div>
+      
     </div>
   )
 }
