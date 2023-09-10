@@ -1,7 +1,7 @@
 import Nav from '../components/nav'
 import Hero from '../components/page_home/hero'
 import { Team } from '../components/team'
-import { Midsection } from '../components/midsection'
+// import { Midsection } from '../components/midsection'
 import '../App.css'
 import { HeroTwo } from '../components/page_home/heroTwo'
 import { Footer } from '../components/footer'
@@ -35,20 +35,20 @@ export const Home = () => {
         </div>
 
 
-        <div className={`${styles.flexStart} my-24` } >
+        <div className={`${styles.flexStart} my-44 ` } >
             <div className={`${styles.boxWidth}`}>
             <Benefits />
             </div>
         </div>
 
-
+{/* 
         <div className='' >
             <Midsection />
         </div>
                 
-      
+       */}
 
-        <div className={`${styles.flexStart} top-0 my-24` } >
+        <div className={`${styles.flexStart} my-36` } >
             <div className={`${styles.boxWidth}`}>
             <Testimony />
             </div>

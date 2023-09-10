@@ -7,7 +7,7 @@ module.exports = {
       colors: {
         primary: "#fff",
         title: "#140041",
-        paragraph:"#0b6bd3",
+        paragraph:"#a08f86",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
         blueATB :  "#277DE2 ",
@@ -16,7 +16,7 @@ module.exports = {
         bgNav:'#140041',
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        poppins: ["Raleway", "sans-serif"],
       },
       linearGradientColors: theme => theme("colors"),
     },

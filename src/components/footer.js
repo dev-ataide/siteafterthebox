@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <div className="flex items-end w-full bottom-0">
     
-        <footer className="w-full text-gray-700  bg-bgpurpleATB body-font">
+        <footer className="w-full text-gray-700  bg-bgNav body-font">
             <div className="container flex flex-col flex-wrap px-5 pb-5 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
                 <div className="flex-shrink mx-auto items-center justify-center text-center my-14 ">
                     <a className="flex items-center justify-center font-medium text-white title-font md:justify-start"/>

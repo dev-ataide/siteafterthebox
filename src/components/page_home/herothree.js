@@ -25,8 +25,9 @@ export const HeroThree = () => {
   return (
     <div className="container flex flex-col p-10 py-10 mx-auto space-y-6 md:h-[32rem] md:py-16 md:flex-row md:items-center md:justify-around sm:flex-row justify-center align-middle z-[1] ">
     <div className={`animated-section3 text-4xl lg:text-6xl z-10 text-white ${isVisible ? 'visible' : ''}`}>
-          <h1 className=" ss:text-left xs:text-center font-semibold  tracking-wide text-white">
-          Você no controle!
+          <h1 className=" ss:text-left xs:text-center font-semibold  tracking-wide text-title">
+          Você no <span className='text-gradient'> controle!</span> <br/>
+          e mais alguma coisa
           </h1>
         <h1  className={`${styles.paragraph} pt-10`} >
         Na After the Box, usamos sprints para dividir os projetos em etapas gerenciáveis.<br/>

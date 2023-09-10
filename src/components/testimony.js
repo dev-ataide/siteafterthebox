@@ -9,7 +9,7 @@ export const Testimony = () => {
   <div className="mx-auto px-4 sm:px-6 lg:px-8">
     <div className="items-end justify-between sm:flex">
       <div className="max-w-xl">
-        <h2 className="text-3xl text-white font-bold tracking-tight sm:text-5xl">
+        <h2 className="text-3xl text-title font-bold tracking-tight sm:text-5xl">
           O que dizem <br/> nossos clientes :
         </h2>
       </div>  
@@ -17,9 +17,9 @@ export const Testimony = () => {
 
     <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 p-10">
 
-    <div className="flex h-full w-[100%] flex-col justify-between bgpurpleATB50  p-12 rounded-3xl">
+    <div className="flex h-full w-[100%] flex-col justify-between bgpurpleATB50  p-12 rounded-3xl shadow-2xl border-b transform border-orangeATB">
         <div>
-          <div className="flex gap-0.5 text-green-500">
+          <div className="flex gap-0.5">
           <div className="max-w-2xl mx-auto">
 
           <div className="flex items-center space-x-4">
@@ -31,17 +31,17 @@ export const Testimony = () => {
 
           <div className="mt-4">
            
-            <p className="mt-4 text-white">
+            <p className="mt-4 ">
             Capturaram perfeitamente a essência da nossa empresa, desde o conceito até o produto final. O respeito ao prazo e a atenção conosco durante o processo nos causou uma ótima experiência.
             </p>
             
           </div>
         </div>
 
-        <footer className="mt-8  text-white">
-          <h1 className='text-xl'>Guilherme
+        <footer className="mt-8  ">
+          <h1 className='text-xl '>Guilherme
             </h1>
-            <p >
+            <p  className='text-black'>
               Dono da <span className='text-orangeATB' > Animazone </span>
             </p>
         </footer>
@@ -50,9 +50,9 @@ export const Testimony = () => {
 
       </div>
 
-      <div className="flex h-full w-[100%] flex-col justify-between bgpurpleATB50  p-12 rounded-3xl">
+      <div className="flex h-full w-[100%] flex-col justify-between bgpurpleATB50  p-12 rounded-3xl shadow-2xl border-b transform border-orangeATB">
         <div>
-          <div className="flex gap-0.5 text-green-500">
+          <div className="flex gap-0.5">
           <div className="max-w-2xl mx-auto">
 
           <div className="flex items-center space-x-4">
@@ -64,14 +64,14 @@ export const Testimony = () => {
 
           <div className="mt-4">
            
-            <p className="mt-4 text-white">
+            <p className="mt-4 ">
             Cada etapa do projeto foi cuidadosamente planejada e executada, resultando em uma Identidade Visual que superou amplamente minhas expectativas.
             </p>
             
           </div>
         </div>
 
-        <footer className="mt-8  text-white">
+        <footer className="mt-8">
           <h1 className='text-xl'>Naum Gustavo
             </h1>
             <p >
@@ -83,7 +83,7 @@ export const Testimony = () => {
 
       </div>
 
-      <div className="flex h-full w-[100%] flex-col justify-between bgpurpleATB50  p-12 rounded-3xl">
+      <div className="flex h-full w-[100%] flex-col justify-between bgpurpleATB50  p-12 rounded-3xl shadow-2xl border-b transform border-orangeATB ">
         <div>
           <div className="flex gap-0.5">
           <div className="max-w-2xl mx-auto">
@@ -97,13 +97,13 @@ export const Testimony = () => {
 
           <div className="mt-4">
            
-            <p className="mt-4 text-white">
+            <p className="mt-4">
             A atenção aos detalhes, a criatividade e a comunicação impecável fizeram do processo de desenvolvimento uma experiência incrível.            </p>
             
           </div>
         </div>
 
-        <footer className="mt-8  text-white">
+        <footer className="mt-8">
           <h1 className='text-xl'>Givailton Cordeiro
             </h1>
             <p >
@@ -117,7 +117,7 @@ export const Testimony = () => {
 
       
     </div>
-    <p className='flex mt-10 justify-center items-center text-center text-gray-400 hover:text-white'>Faça parte do grupo de clientes satisfeitos e descubra como podemos ajudar você a alcançar o sucesso online!</p>
+    <p className='flex mt-10 justify-center items-center text-center text-gray-400 hover:text-orangeATB'>Faça parte do grupo de clientes satisfeitos e descubra como podemos ajudar você a alcançar o sucesso online!</p>
 
   </div>
 

@@ -27,14 +27,11 @@ export const HeroTwo = () => {
     <div className="container flex flex-col p-10 py-10 mx-auto space-y-6 md:h-[32rem] md:py-16 md:flex-row md:items-center md:justify-around sm:flex-row justify-center align-middle z-[1] ">
     <div className={`animated-section2 text-4xl lg:text-6xl z-10 text-white ${isVisible ? 'visible' : ''}`}>
     <h1 className="animated-text-hero init-hidden ss:text-left xs:text-center font-semibold  tracking-wide text-gradient text-5xl">
-    A Próxima
-    </h1>
+ O Futuro Digital:     </h1>
       <h1 className="z-10 font-semibold tracking-wide xs:text-center ss:text-left text-5xl text-title">
-         Geração de : <br/>
-         Marcas, Sites e <br/> Sistemas
-
+     Sua Marca é Única, Seu Site Também Deve Ser
       </h1>
-        <p  className={`${styles.paragraph} text-paragraph pt-10 pr-48`} > Com expertise em desenvolvimento de websites, criação de marcas e estratégias de social mídia.</p>
+        <p  className={`${styles.paragraph} text-paragraph pt-10 pr-48`} >No mundo competitivo da web, sua marca precisa se destacar. Na After The Box, não apenas seguimos tendências, nós as criamos.  <br/>  Sua marca é única, e seu site também deve ser. </p>
     </div>
 
    
