@@ -15,6 +15,8 @@ import socialmediaprolimp2  from '../../assets/portoflio/socialmediaprolimp2.png
 import socialmediaprolimp3  from '../../assets/portoflio/socialmediaprolimp3.png'
 import socialmediaprolimp4  from '../../assets/portoflio/socialmediaprolimp4.png'
 
+
+
 export const GalleryData = [
     {
         id:1,

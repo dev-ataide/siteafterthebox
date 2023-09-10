@@ -43,8 +43,50 @@ collection.map((item, index) => (
       </div>
       <div className="w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
             <video  muted className="object-cover object-center mt-[15%] h-100% w-full" controls>
-                                <source src={video} type="video/mp4" />
-                              </video>      </div>
+              <source src={video} type="video/mp4" />
+            </video>
+    </div>
+    <section className="text-gray-600 body-font">
+       <div className="container px-5 py-24 mx-auto flex flex-wrap justify-center ">
+       <h1 role="heading" tabIndex={0} className="text-4xl mt-10 font-bold 2xl:leading-10 leading-0 text-center text-white animated-text-hero tracking-wide">
+       Os impactos poderosos de ter um site empresarial
+       </h1>
+         <div className="w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+         <video   className="object-cover object-center mt-[15%] h-100% w-full" controls>
+                             <source src={video} type="video/mp4" />
+                           </video>      </div>
+         <div className={`animated-section ${isVisible ? 'visible' : ''} flex flex-wrap flex-row -mx-4 text-center mt-36 `}>
+               <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 " data-wow-duration="1s" data-wow-delay=".10s" >
+                   <div className="py-8 px-12 mb-12 bgpurpleATB50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                       <div className="inline-block text-orangeATB text-5xl">
+                           <ion-icon name="timer-outline"></ion-icon>
+                       </div>
+                       <h3 className="text-lg leading-normal mb-2 font-semibold text-white">Presença Online 24/7:</h3>
+                       <p className="text-gray-200">Um site proporciona acesso contínuo a informações sobre sua empresa. Clientes podem explorar seus produtos e serviços a qualquer hora do dia.</p>
+                   </div>
+               </div>
+   
+               <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 " data-wow-duration="1s" data-wow-delay=".1s" >
+                   <div className="py-8 px-12 mb-12 bgpurpleATB50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                       <div className="inline-block text-orangeATB text-5xl">
+                       <ion-icon name="earth-outline"></ion-icon>                    </div>
+                       <h3 className="text-lg leading-normal mb-2 font-semibold text-white">Alcance Global</h3>
+                       <p className="text-gray-200">Com um site, sua empresa pode atingir um público global, superando fronteiras geográficas. Isso é crucial em um mundo conectado digitalmente.</p>
+                   </div>
+               </div>
+               <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 " data-wow-duration="1s" data-wow-delay=".1s" >
+                   <div className="py-8 px-12 mb-12 bgpurpleATB50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                       <div className="inline-block text-orangeATB text-5xl">
+                       <ion-icon name="megaphone-outline"></ion-icon>                    </div>
+                       <h3 className="text-lg leading-normal mb-2 font-semibold  text-white">Credibilidade</h3>
+                       <p className="text-gray-200">Um site bem projetado adiciona credibilidade, transmitindo profissionalismo e confiança. Os clientes confiam mais em empresas com uma presença online sólida.</p>
+                   </div>
+               </div>
+            
+              </div>
+       </div>
+     </section>
+
     </div>
   );
 }
@@ -188,46 +230,6 @@ export default PortfolioAFTB;
        </div>
    
    
-               <section className="text-gray-600 body-font">
-       <div className="container px-5 py-24 mx-auto flex flex-wrap justify-center ">
-       <h1 role="heading" tabIndex={0} className="text-4xl mt-10 font-bold 2xl:leading-10 leading-0 text-center text-white animated-text-hero tracking-wide">
-       Os impactos poderosos de ter um site empresarial
-       </h1>
-         <div className="w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-         <video   className="object-cover object-center mt-[15%] h-100% w-full" controls>
-                             <source src={video} type="video/mp4" />
-                           </video>      </div>
-         <div className={`animated-section ${isVisible ? 'visible' : ''} flex flex-wrap flex-row -mx-4 text-center mt-36 `}>
-               <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 " data-wow-duration="1s" data-wow-delay=".10s" >
-                   <div className="py-8 px-12 mb-12 bgpurpleATB50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-                       <div className="inline-block text-orangeATB text-5xl">
-                           <ion-icon name="timer-outline"></ion-icon>
-                       </div>
-                       <h3 className="text-lg leading-normal mb-2 font-semibold text-white">Presença Online 24/7:</h3>
-                       <p className="text-gray-200">Um site proporciona acesso contínuo a informações sobre sua empresa. Clientes podem explorar seus produtos e serviços a qualquer hora do dia.</p>
-                   </div>
-               </div>
-   
-               <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 " data-wow-duration="1s" data-wow-delay=".1s" >
-                   <div className="py-8 px-12 mb-12 bgpurpleATB50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-                       <div className="inline-block text-orangeATB text-5xl">
-                       <ion-icon name="earth-outline"></ion-icon>                    </div>
-                       <h3 className="text-lg leading-normal mb-2 font-semibold text-white">Alcance Global</h3>
-                       <p className="text-gray-200">Com um site, sua empresa pode atingir um público global, superando fronteiras geográficas. Isso é crucial em um mundo conectado digitalmente.</p>
-                   </div>
-               </div>
-               <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 " data-wow-duration="1s" data-wow-delay=".1s" >
-                   <div className="py-8 px-12 mb-12 bgpurpleATB50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-                       <div className="inline-block text-orangeATB text-5xl">
-                       <ion-icon name="megaphone-outline"></ion-icon>                    </div>
-                       <h3 className="text-lg leading-normal mb-2 font-semibold  text-white">Credibilidade</h3>
-                       <p className="text-gray-200">Um site bem projetado adiciona credibilidade, transmitindo profissionalismo e confiança. Os clientes confiam mais em empresas com uma presença online sólida.</p>
-                   </div>
-               </div>
-            
-              </div>
-       </div>
-     </section>
    
    
            </div>
