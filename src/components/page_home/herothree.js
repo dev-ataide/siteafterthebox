@@ -25,10 +25,12 @@ export const HeroThree = () => {
   return (
     <div className="container flex flex-col p-10 py-10 mx-auto space-y-6 md:h-[32rem] md:py-16 md:flex-row md:items-center md:justify-around sm:flex-row justify-center align-middle z-[1] ">
     <div className={`animated-section3 text-4xl lg:text-6xl z-10 text-white ${isVisible ? 'visible' : ''}`}>
-          <h1 className=" ss:text-left xs:text-center font-semibold  tracking-wide text-title">
-          Você no <span className='text-gradient'> controle!</span> <br/>
-          </h1>
-        <h1  className={`${styles.paragraph} pt-10`} >
+    <header className="text-center mx-auto mb-12 lg:px-20">
+                <h2 className="text-5xl leading-normal mb-2 font-bold text-title">Você no comando!</h2>
+               
+                <p className="text-paragraph leading-relaxed font-light text-2xl mx-auto pb-2 ">Fique por dentro de cada etapa do projeto!</p>
+            </header>
+        <h1  className={`${styles.paragraph} pt-1`} >
         Na After the Box, usamos sprints para dividir os projetos em etapas gerenciáveis.<br/>
         Apresentamos os resultados ao cliente ao final de cada sprint para revisão e aprovação.   <br/> 
         Com nosso sistema de pagamentos progressivos, o cliente paga parcialmente após cada entrega aprovada.   <br/>
