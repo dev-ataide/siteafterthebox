@@ -2,8 +2,6 @@ import '../../css/animated.css'
 import { GalleryData } from './galleryData';
 import { useState, useEffect } from 'react';
 
-import video from '../../assets/video/videoSiteProlimp.mp4'
-
 function PortfolioAFTB() {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -52,22 +50,14 @@ collection.map((item, index) => (
         </div>
         <div className="galleryContainer shadow-lg p-8 rounded-md">
           {
-            data.map((item)=> <div  key={item.id} className="galleryItem hover:-translate-y-2 "><img src={item.image} /></div> )
+            data.map((item)=> <div  key={item.id} className="galleryItem hover:-translate-y-2 "> <a href={item.link} className='cursor-pointer'> <img src={item.image} /> </a></div> )
           }
         
         </div>
       </div>
   
     <section className="text-gray-600 body-font">
-       <div className="container pt-40 mx-auto flex flex-wrap justify-center ">
-       <h1 role="heading" tabIndex={0} className="text-4xl font-bold 2xl:leading-10 leading-0 text-center text-title animated-text-hero tracking-wide">
-       Nosso último site desenvolvido.
-       </h1>
-         <div className="w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-         <video  muted className="object-cover object-center mt-[15%] h-100% w-full" >
-                             <source src={video} type="video/mp4" />
-                           </video>      </div>
-         <div className={`animated-section ${isVisible ? 'visible' : ''} flex flex-wrap flex-row -mx-4 text-center mt-36 `}>
+         <div className={`animated-section ${isVisible ? 'visible' : ''} flex flex-wrap flex-row -mx-4 text-center mt-1 `}>
                <div className="text-black flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 " data-wow-duration="1s" data-wow-delay=".10s" >
                    <div className="shadow-2xl hover:text-white py-8 px-12 mb-12 bgpurpleATB50 border-b transform border-orangeATB transition duration-300 ease-in-out hover:-translate-y-2">
                        <div className="inline-block text-orangeATB text-5xl">
@@ -96,7 +86,7 @@ collection.map((item, index) => (
                </div>
             
               </div>
-       </div>
+      
      </section>
 
     </div>

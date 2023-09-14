@@ -32,12 +32,15 @@ const Nav = () => {
           {
             Links.map((links)=>(
               <li key={links.name} className=' bg-transparent sm:flex sm:mr-10  sm:ml-8 text-xl sm:my-5 my-7 ' >
- <a className='  bg-transparent text-gray-200 hover:text-white font-mono lg:text-gray-300  lg:hover:text-white ' href={links.links}> {links.name}</a>              </li>
+ <a className='  bg-transparent text-orangeATB hover:text-white font-mono lg:text-gray-300  lg:hover:text-white ' href={links.links}> {links.name}</a>              </li>
             ))
           }
-          <button className=' bg-orangeATB p-3 rounded-3xl text-gray-200 hover:text-white font-mono lg:text-gray-300  lg:hover:text-white ' >
-            <a className='font-mono' href='https://wa.me/5581986559883' target="_blank" rel="noreferrer" >Entre em contato</a>
-          </button>
+          <a className='bg-transparent text-gray-200 hover:text-white font-mono lg:text-gray-300  lg:hover:text-white' href='https://wa.me/5581986559883' target="_blank" rel="noreferrer" >
+            <button href='https://wa.me/5581986559883' target="_blank" className='  bg-orangeATB p-3 rounded-3xl text-gray-200 hover:text-white font-mono lg:text-gray-300  lg:hover:text-white ' >
+              Entre em contato
+            </button>
+          </a>
+          
         </ul>
       </div>
     </div>

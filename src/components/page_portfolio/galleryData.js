@@ -9,18 +9,20 @@ import gatomalo from '../../assets/portoflio/Sacolinha Gato Malo.png'
 import modzeria  from '../../assets/portoflio/modezria.png'
 import millki from '../../assets/portoflio/millki.png'
 import burguermaster  from '../../assets/portoflio/homeappburguermaster.png'
-
+//social media
 import socialmediaprolimp1  from '../../assets/portoflio/socialmediaprolimp1.png'
 import socialmediaprolimp2  from '../../assets/portoflio/socialmediaprolimp2.png'
 import socialmediaprolimp3  from '../../assets/portoflio/socialmediaprolimp3.png'
 import socialmediaprolimp4  from '../../assets/portoflio/socialmediaprolimp4.png'
+//sites
+import siteprolimp  from '../../assets/portoflio/site prolimp.jpeg'
 
 
 
 export const GalleryData = [
     {
         id:1,
-        titile:"Aplicativo",
+        titile:"Aplicativos",
         image:[burguermaster]
     },
     {
@@ -89,6 +91,13 @@ export const GalleryData = [
         titile:"Marca",
         image:[logoxurras]
     },
+    {
+        id:16,
+        titile:"Sites",
+        image:[siteprolimp],
+        link:"http://segprolimp.com.br/"
+    },
+
 
   
 ]

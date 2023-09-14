@@ -27,7 +27,6 @@ export const HeroThree = () => {
     <div className={`animated-section3 text-4xl lg:text-6xl z-10 text-white ${isVisible ? 'visible' : ''}`}>
           <h1 className=" ss:text-left xs:text-center font-semibold  tracking-wide text-title">
           Você no <span className='text-gradient'> controle!</span> <br/>
-          e mais alguma coisa
           </h1>
         <h1  className={`${styles.paragraph} pt-10`} >
         Na After the Box, usamos sprints para dividir os projetos em etapas gerenciáveis.<br/>

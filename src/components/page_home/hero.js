@@ -44,9 +44,9 @@ const Hero = () => {
 
 
    
-<div className='flex justify-center items-center xs:w-[50%] z-10'>
-            <img src={img} className='z-10 ss:w-auto w-[10%] ' />
-        </div>
+    <div className='flex justify-center items-center z-10 m-10 '>
+        <img src={img} />
+    </div>
 </div>
 
   );

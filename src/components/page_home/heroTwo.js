@@ -31,13 +31,13 @@ export const HeroTwo = () => {
       <h1 className="z-10 font-semibold tracking-wide xs:text-center ss:text-left text-5xl text-title">
      Sua Marca é Única, Seu Site Também Deve Ser
       </h1>
-        <p  className={`${styles.paragraph} text-paragraph pt-10 pr-48`} >No mundo competitivo da web, sua marca precisa se destacar. Na After The Box, não apenas seguimos tendências, nós as criamos.  <br/>  Sua marca é única, e seu site também deve ser. </p>
+        <p  className={`${styles.paragraph} text-paragraph pt-10`} >No mundo competitivo da web, sua marca precisa se destacar. Na After The Box, não apenas seguimos tendências, nós as criamos.  <br/>  Sua marca é única, e seu site também deve ser. </p>
     </div>
 
    
-<div className='flex justify-center items-center z-10'>
-            <img src={IlustracaoDashboard} className='z-10 ss:w-auto xs:w-[50%]' />
-        </div>
+    <div className='flex justify-center items-center z-10 m-10 '>
+        <img src={IlustracaoDashboard} />
+    </div>
 </div>
 
   );
