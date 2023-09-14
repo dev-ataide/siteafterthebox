@@ -5,6 +5,22 @@ import { useState, useEffect } from 'react';
 import video from '../../assets/video/videoSiteProlimp.mp4'
 
 function PortfolioAFTB() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        }
+      });
+    });
+
+    observer.observe(document.querySelector('.animated-section'));
+
+    return () => observer.disconnect();
+  }, []);
+
 
   const [data,setData] = useState([]);
   const [collection,setCollection] = useState([]);
@@ -34,52 +50,48 @@ collection.map((item, index) => (
             }
           </ul>
         </div>
-        <div className="galleryContainer">
+        <div className="galleryContainer shadow-lg p-8 rounded-md">
           {
-            data.map((item)=> <div  key={item.id} className="galleryItem "><img  src={item.image}  /></div> )
+            data.map((item)=> <div  key={item.id} className="galleryItem hover:-translate-y-2 "><img src={item.image} /></div> )
           }
         
         </div>
       </div>
-      <div className="w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-            <video  muted className="object-cover object-center mt-[15%] h-100% w-full" controls>
-              <source src={video} type="video/mp4" />
-            </video>
-    </div>
+  
     <section className="text-gray-600 body-font">
-       <div className="container px-5 py-24 mx-auto flex flex-wrap justify-center ">
-       <h1 role="heading" tabIndex={0} className="text-4xl mt-10 font-bold 2xl:leading-10 leading-0 text-center text-white animated-text-hero tracking-wide">
-       Os impactos poderosos de ter um site empresarial
+       <div className="container pt-40 mx-auto flex flex-wrap justify-center ">
+       <h1 role="heading" tabIndex={0} className="text-4xl font-bold 2xl:leading-10 leading-0 text-center text-title animated-text-hero tracking-wide">
+       Nosso último site desenvolvido.
        </h1>
          <div className="w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-         <video   className="object-cover object-center mt-[15%] h-100% w-full" controls>
+         <video  muted className="object-cover object-center mt-[15%] h-100% w-full" >
                              <source src={video} type="video/mp4" />
                            </video>      </div>
          <div className={`animated-section ${isVisible ? 'visible' : ''} flex flex-wrap flex-row -mx-4 text-center mt-36 `}>
-               <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 " data-wow-duration="1s" data-wow-delay=".10s" >
-                   <div className="py-8 px-12 mb-12 bgpurpleATB50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+               <div className="text-black flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 " data-wow-duration="1s" data-wow-delay=".10s" >
+                   <div className="shadow-2xl hover:text-white py-8 px-12 mb-12 bgpurpleATB50 border-b transform border-orangeATB transition duration-300 ease-in-out hover:-translate-y-2">
                        <div className="inline-block text-orangeATB text-5xl">
                            <ion-icon name="timer-outline"></ion-icon>
                        </div>
-                       <h3 className="text-lg leading-normal mb-2 font-semibold text-white">Presença Online 24/7:</h3>
-                       <p className="text-gray-200">Um site proporciona acesso contínuo a informações sobre sua empresa. Clientes podem explorar seus produtos e serviços a qualquer hora do dia.</p>
+                       <h3 className="text-lg leading-normal mb-2 font-semibold ">Presença Online 24/7:</h3>
+                       <p>Um site proporciona acesso contínuo a informações sobre sua empresa. Clientes podem explorar seus produtos e serviços a qualquer hora do dia.</p>
                    </div>
                </div>
    
-               <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 " data-wow-duration="1s" data-wow-delay=".1s" >
-                   <div className="py-8 px-12 mb-12 bgpurpleATB50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+               <div className=" text-black hover:text-white flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 " data-wow-duration="1s" data-wow-delay=".1s" >
+                   <div className="shadow-2xl hover:text-white py-8 px-12 mb-12 bgpurpleATB50 border-b transform border-orangeATB transition duration-300 ease-in-out hover:-translate-y-2">
                        <div className="inline-block text-orangeATB text-5xl">
                        <ion-icon name="earth-outline"></ion-icon>                    </div>
-                       <h3 className="text-lg leading-normal mb-2 font-semibold text-white">Alcance Global</h3>
-                       <p className="text-gray-200">No digital, Sua empresa pode atingir um público global, superando fronteiras geográficas. Isso é crucial em um mundo conectado digitalmente.</p>
+                       <h3 className="text-lg leading-normal mb-2 font-semibold ">Alcance Global</h3>
+                       <p >No digital, Sua empresa pode atingir um público global, superando fronteiras geográficas. Isso é crucial em um mundo conectado digitalmente.</p>
                    </div>
                </div>
-               <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 " data-wow-duration="1s" data-wow-delay=".1s" >
-                   <div className="py-8 px-12 mb-12 bgpurpleATB50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+               <div className="text-black flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6   shadow-slate-800" data-wow-duration="1s" data-wow-delay=".1s" >
+                   <div className="shadow-2xl hover:text-white py-8 px-12 mb-12 bgpurpleATB50 border-b transform border-orangeATB transition duration-300 ease-in-out hover:-translate-y-2">
                        <div className="inline-block text-orangeATB text-5xl">
                        <ion-icon name="megaphone-outline"></ion-icon>                    </div>
-                       <h3 className="text-lg leading-normal mb-2 font-semibold  text-white">Credibilidade</h3>
-                       <p className="text-gray-200">Um site bem projetado adiciona credibilidade, transmitindo profissionalismo e confiança. Os clientes confiam mais em empresas com uma presença online sólida.</p>
+                       <h3 className="text-lg leading-normal mb-2 font-semibold ">Credibilidade</h3>
+                       <p >Um site bem projetado adiciona credibilidade, transmitindo profissionalismo e confiança. Os clientes confiam mais em empresas com uma presença online sólida.</p>
                    </div>
                </div>
             
@@ -95,29 +107,19 @@ export default PortfolioAFTB;
 
 
 {/*
- const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-        }
-      });
-    });
-
-    observer.observe(document.querySelector('.animated-section'));
-
-    return () => observer.disconnect();
-  }, []);
-
+ 
     return (
         <div className="bg-transparent flex flex-col items-center justify-center ">
             <div className="xl:w-1/2 w-11/12  py-14">
                 <h1 role="heading" tabIndex={0} className="text-4xl font-bold 2xl:leading-10 leading-0 text-center text-white animated-text-hero tracking-wide">
                   Marcas e Social Media.
                 </h1>
-                
+                    <div className="w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+            <video  muted className="object-cover object-center mt-[15%] h-100% w-full" controls>
+              <source src={video} type="video/mp4" />
+            </video>
+    </div>
             </div>
 
 <div className="container mx-auto p-4 ">

@@ -15,7 +15,7 @@ const Nav = () => {
 
 
   return (
-    <div className='shadow-md w-full top-0 left-0 z-[1] bg-bgNav absolute ' >
+    <div className='shadow-md w-full top-0 left-0 z-[50] bg-bgNav fixed  ' >
       <div className=' flex sm:flex py-3 sm:px-10 item-center justify-around'>
         {/* logo */}
         <div className='cursor-pointer flex items-center ml-5 pt-1 m-auto ' > 

@@ -41,7 +41,7 @@ export const Testimony = () => {
         <footer className="mt-8  ">
           <h1 className='text-xl '>Guilherme
             </h1>
-            <p  className='text-black'>
+            <p>
               Dono da <span className='text-orangeATB' > Animazone </span>
             </p>
         </footer>

@@ -20,73 +20,73 @@ import socialmediaprolimp4  from '../../assets/portoflio/socialmediaprolimp4.png
 export const GalleryData = [
     {
         id:1,
-        titile:"App",
+        titile:"Aplicativo",
         image:[burguermaster]
     },
     {
         id:2,
-        titile:"brand",
+        titile:"Marca",
         image:[LogoGuille]
     },
     {
         id:3,
-        titile:"brand",
+        titile:"Marca",
         image:[logobeecode]
     },
     {
         id:4,
-        titile:"brand",
+        titile:"Marca",
         image:[gatomalo]
     },
     {
         id:5,
-        titile:"brand",
+        titile:"Marca",
         image:[logolegust]
     },
     {
         id:6,
-        titile:"brand",
+        titile:"Marca",
         image:[millki]
     },
     {
         id:7,
-        titile:"brand",
+        titile:"Marca",
         image:[logosolar]
     },
     {
         id:8,
-        titile:"brand",
+        titile:"Marca",
         image:[modzeria]
     },
  
     {
         id:10,
-        titile:"brand",
+        titile:"Marca",
         image:[logoLace]
     },
      {
         id:11,
-        titile:"socialMedia",
+        titile:"Social Media",
         image:[socialmediaprolimp1]
     },
     {
         id:12,
-        titile:"socialMedia",
+        titile:"Social Media",
         image:[socialmediaprolimp2]
     },
     {
         id:13,
-        titile:"socialMedia",
+        titile:"Social Media",
         image:[socialmediaprolimp3]
     },
     {
         id:14,
-        titile:"socialMedia",
+        titile:"Social Media",
         image:[socialmediaprolimp4]
     },
     {
         id:15,
-        titile:"brand",
+        titile:"Marca",
         image:[logoxurras]
     },
 

@@ -34,8 +34,8 @@ export const Benefits = () => {
 
             <div className={`animated-section ${isVisible ? 'visible' : ''} flex flex-wrap flex-row -mx-4 text-center `}>
 
-            <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6   shadow-slate-800" data-wow-duration="1s" data-wow-delay=".10s" >
-                <div className="shadow-2xl hover:text-white py-8 px-12 mb-12 bgpurpleATB50 border-b transform border-orangeATB transition duration-300 ease-in-out hover:-translate-y-2">
+            <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6   shadow-slate-800 hover:text-white" data-wow-duration="1s" data-wow-delay=".10s" >
+                <div className="shadow-2x py-8 px-12 mb-12 bgpurpleATB50 border-b transform border-orangeATB transition duration-300 ease-in-out hover:-translate-y-2 hover:text-white">
                     <div className="inline-block text-orangeATB text-5xl">
                         <ion-icon name="timer-outline"></ion-icon>
                     </div>
